@@ -1,0 +1,25 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "Email": "pipoon",
+      "Phone": "5555",
+      "Username": "pipoon",
+      "Password": "2410"
+    },
+    {
+      "id": 2,
+      "Email": "jill042@gmail.com",
+      "Phone": "0950189299",
+      "Username": "jill",
+      "Password": "1509"
+    },
+    {
+      "Email": "",
+      "Phone": "",
+      "Username": "",
+      "Password": "",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="register.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <title>Register</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            background-color: black;
+            color: #20E4B3;
+        }
+
+        input[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+
+        input[type=text]:focus {
+            border: 3px solid #555;
+        }
+
+        button[type=button] {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top"></nav>
+    <div class="contianer" style="margin-top:100px">
+        <div style="border-width:10px; border-style:double; border-color:#20E4B3">
+            <h1>Register</h1>
+            <div class="input">
+                <input type="text" id="em" placeholder="e-mail"><br><br>
+                <input type="text" id="pn" placeholder="phone number"><br><br>
+                <input type="text" id="usr" placeholder="username"><br><br>
+                <input type="text" id="pass" placeholder="password"><br><br>
+                <button type="button" class="btn btn-info" id="btnRe">Register</button><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
